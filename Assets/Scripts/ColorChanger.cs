@@ -9,8 +9,6 @@ public class ColorChanger : MonoBehaviour
     public ParticleSystem particle;
     public float rotationSpeed = 5f;
     Material temp;
-    Material swap;
-    public Material transparent;
 
     void Update()
     {
@@ -44,11 +42,4 @@ public class ColorChanger : MonoBehaviour
             }
         }
     }
-
-    public void ColorSwap()
-    {
-        swap = head.GetComponent<Renderer>().material;
-        head.GetComponent<Renderer>().material = body.GetComponent<Renderer>().material;
-        body.GetComponent<Renderer>().material = swap;
-    }  
 }

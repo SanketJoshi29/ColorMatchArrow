@@ -27,6 +27,8 @@ public class WallPass : MonoBehaviour
             {
                 FindObjectOfType<GameManager>().EndGame();
                 movement.enabled = false;
+                Time.timeScale = 0f;
+                FindObjectOfType<GameManager>().CrashMenu();
 
             }
             if(head.GetComponent<Renderer>().material.color == gameObject.GetComponent<Renderer>().material.color 
