@@ -20,22 +20,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        Time.timeScale = 1f;
-        DisplayCoin.coinCount = 0;
-    }
-
     public void CrashMenu()
     {
         crashMenu.SetActive(true);
         powerUI.SetActive(false);   
-    }
-
-    public void PauseMenu()
-    {
-        GameIsPaused = true;
-        pauseMenu.SetActive(true);
     }
 }

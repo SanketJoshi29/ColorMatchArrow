@@ -29,6 +29,7 @@ public class WallPass : MonoBehaviour
                 movement.enabled = false;
                 Time.timeScale = 0f;
                 FindObjectOfType<GameManager>().CrashMenu();
+                FindObjectOfType<HighScore>().HighScoreData();
 
             }
             if(head.GetComponent<Renderer>().material.color == gameObject.GetComponent<Renderer>().material.color 
@@ -42,6 +43,5 @@ public class WallPass : MonoBehaviour
                 //particle.GetComponent<ParticleSystem>().startColor = tail.GetComponent<Renderer>().material.color;
             }
         }
-        Time.timeScale = 1f;
     }   
 }
