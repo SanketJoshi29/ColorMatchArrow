@@ -10,21 +10,34 @@ public class PowerUps : MonoBehaviour
     public GameObject swapPowerCountDisplay;
     Material swap;
 
-    //Tramsparent
+    //Transparent
     public Material transparent;
     public BoxCollider b1;
     public float time = 10f;
+    public bool buttonPressed = false;
 
     //RandomColor
     public Material[] randomColor;
+    public int randomPowerCount = 5;
+    public GameObject randomPowerCountDisplay;
 
     void Start()
     {
         swapPowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + swapPowerCount;
+        randomPowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + randomPowerCount;
     }
     void Update()
     {
-
+        if(buttonPressed == true)
+        {
+            while(time >= 0)
+            {
+            time -= Time.deltaTime;
+            head.GetComponent<Renderer>().material.color = Color.white;
+            body.GetComponent<Renderer>().material.color = Color.white;
+            tail.GetComponent<Renderer>().material.color = Color.white;
+            }
+        }
     }
 
     public void ColorSwap()
@@ -42,29 +55,29 @@ public class PowerUps : MonoBehaviour
 
     public void Transparent()
     {
+        buttonPressed = true;
         head.GetComponent<Renderer>().material = transparent;
         body.GetComponent<Renderer>().material = transparent;
         tail.GetComponent<Renderer>().material = transparent;
         b1.enabled = false;
 
-        while(time >= 0)
-        {
-            time -= Time.deltaTime;
-            head.GetComponent<Renderer>().material.color = Color.white;
-            body.GetComponent<Renderer>().material.color = Color.white;
-            tail.GetComponent<Renderer>().material.color = Color.white;
-        }
+        
     }
 
     public void RandomColor()
     {
-        if(head.GetComponent<Renderer>().material.color == Color.white 
-            && body.GetComponent<Renderer>().material.color == Color.white
-                && tail.GetComponent<Renderer>().material.color == Color.white)
+        if(randomPowerCount != 0)
         {
-            head.GetComponent<Renderer>().material = randomColor[Random.Range(0, randomColor.Length)];
-            body.GetComponent<Renderer>().material = head.GetComponent<Renderer>().material;
-            tail.GetComponent<Renderer>().material = head.GetComponent<Renderer>().material;
+            if(head.GetComponent<Renderer>().material.color == Color.white 
+                && body.GetComponent<Renderer>().material.color == Color.white
+                    && tail.GetComponent<Renderer>().material.color == Color.white)
+            {
+                head.GetComponent<Renderer>().material = randomColor[Random.Range(0, randomColor.Length)];
+                body.GetComponent<Renderer>().material = head.GetComponent<Renderer>().material;
+                tail.GetComponent<Renderer>().material = head.GetComponent<Renderer>().material;
+                randomPowerCount--;
+                randomPowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + randomPowerCount;
+            }
         }
     }
 }
