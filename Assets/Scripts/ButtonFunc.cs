@@ -7,21 +7,16 @@ public class ButtonFunc : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject powerUI;
 
-    public void StartButton()
-    {
-        SceneManager.LoadScene("MainLevel");
-    }
-
     public void RestartButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        FindObjectOfType<SceneChanger>().FadeToScene("MainLevel");
         Time.timeScale = 1f;
         DisplayCoin.coinCount = 0;
     }
 
     public void MainMenuButton()
     {
-        SceneManager.LoadScene("MainMenu");
+        FindObjectOfType<SceneChanger>().FadeToScene("MainMenu");
         Time.timeScale = 1f;
     }
 

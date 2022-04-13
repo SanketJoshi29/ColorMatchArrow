@@ -6,12 +6,16 @@ public class HighScore : MonoBehaviour
 
     void Start()
     {
-        transform.position = new Vector3(18, 1.5f, PlayerPrefs.GetFloat("HighScore"));
+        //PlayerPrefs.DeleteAll();
+        transform.position = new Vector3(18, 1.5f, PlayerPrefs.GetFloat("HighScore",0));
     }
 
     public void HighScoreData()
     {
-        PlayerPrefs.SetFloat("HighScore", head.position.z);
+        if(head.position.z > PlayerPrefs.GetFloat("HighScore",0))
+        {
+            PlayerPrefs.SetFloat("HighScore", head.position.z);
+        }
     }
 
 }

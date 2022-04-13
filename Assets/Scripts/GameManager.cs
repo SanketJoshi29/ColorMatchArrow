@@ -4,11 +4,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public bool gameHasEnded = false;
-    public float restartDelayTime = 1f;
     public GameObject crashMenu;
-    public GameObject pauseMenu;
     public GameObject powerUI;
-    public static bool GameIsPaused = false;
 
     public void EndGame()
     {
