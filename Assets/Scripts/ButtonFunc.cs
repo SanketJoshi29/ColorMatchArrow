@@ -6,6 +6,8 @@ public class ButtonFunc : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenu;
     public GameObject powerUI;
+    public Material skyboxOne;
+     public Material skyboxTwo;
 
     public void RestartButton()
     {
@@ -35,4 +37,14 @@ public class ButtonFunc : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
+    /*public void ChangeSkybox()
+    {
+        RenderSettings.skybox = skyboxOne;
+        DynamicGI.UpdateEnvironment();
+    }
+    public void ChangeSkyboxBlue()
+    {
+        RenderSettings.skybox = skyboxTwo;
+        DynamicGI.UpdateEnvironment();
+    }*/
 }
