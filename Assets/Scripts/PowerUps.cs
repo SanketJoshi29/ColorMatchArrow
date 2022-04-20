@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PowerUps : MonoBehaviour
 {
@@ -13,8 +14,18 @@ public class PowerUps : MonoBehaviour
     //Transparent
     public Material transparent;
     public BoxCollider b1;
-    public float time = 10f;
+    public float time;
     public bool buttonPressed = false;
+    public GameObject slider;
+    public Slider timeSlider;
+    public float gameTime;
+    float timer = 0f;
+    private bool stopTimer = false;
+    Material headSwap;
+    Material bodySwap;
+    Material tailSwap;
+    public int invisiblePowerCount = 5;
+    public GameObject invisiblePowerCountDisplay;
 
     //RandomColor
     public Material[] randomColor;
@@ -23,19 +34,39 @@ public class PowerUps : MonoBehaviour
 
     void Start()
     {
+        timeSlider.maxValue = gameTime;
+        timeSlider.value = gameTime;
         swapPowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + swapPowerCount;
+        invisiblePowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + invisiblePowerCount;
         randomPowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + randomPowerCount;
     }
     void Update()
     {
         if(buttonPressed == true)
         {
-            while(time >= 0)
+            slider.SetActive(true);
+            timer += Time.deltaTime;
+            time = gameTime - timer;
+
+            if(stopTimer == false)
             {
-            time -= Time.deltaTime;
-            head.GetComponent<Renderer>().material.color = Color.white;
-            body.GetComponent<Renderer>().material.color = Color.white;
-            tail.GetComponent<Renderer>().material.color = Color.white;
+                timeSlider.value = time;
+            }
+            if(time <= 0)
+            {
+                stopTimer = true;
+                slider.SetActive(false);
+                timer = 0f;
+                timeSlider.value = gameTime;
+                buttonPressed = false;
+                head.GetComponent<Renderer>().material = headSwap;
+                body.GetComponent<Renderer>().material = bodySwap;
+                tail.GetComponent<Renderer>().material = tailSwap;
+                b1.enabled = true;
+            }
+            else
+            {
+                stopTimer = false;
             }
         }
     }
@@ -55,13 +86,19 @@ public class PowerUps : MonoBehaviour
 
     public void Transparent()
     {
-        buttonPressed = true;
-        head.GetComponent<Renderer>().material = transparent;
-        body.GetComponent<Renderer>().material = transparent;
-        tail.GetComponent<Renderer>().material = transparent;
-        b1.enabled = false;
-
-        
+        if(invisiblePowerCount != 0)
+        {
+            buttonPressed = true;
+            headSwap = head.GetComponent<Renderer>().material;
+            bodySwap= body.GetComponent<Renderer>().material;
+            tailSwap = tail.GetComponent<Renderer>().material;
+            head.GetComponent<Renderer>().material = transparent;
+            body.GetComponent<Renderer>().material = transparent;
+            tail.GetComponent<Renderer>().material = transparent;
+            b1.enabled = false;
+            invisiblePowerCount--;
+            invisiblePowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + invisiblePowerCount;
+        }
     }
 
     public void RandomColor()

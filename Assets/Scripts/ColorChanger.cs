@@ -6,7 +6,7 @@ public class ColorChanger : MonoBehaviour
     public GameObject body;
     public GameObject tail;
     public GameObject bottle;
-    public ParticleSystem particle;
+    //public ParticleSystem particle;
     public float rotationSpeed = 5f;
     Material temp;
 
@@ -29,7 +29,7 @@ public class ColorChanger : MonoBehaviour
                 head.GetComponent<Renderer>().material = GetComponent<Renderer>().material;
                 body.GetComponent<Renderer>().material = GetComponent<Renderer>().material;
                 tail.GetComponent<Renderer>().material = GetComponent<Renderer>().material;
-                particle.GetComponent<ParticleSystem>().startColor = tail.GetComponent<Renderer>().material.color;
+                //particle.GetComponent<ParticleSystem>().startColor = tail.GetComponent<Renderer>().material.color;
             }
             if(head.GetComponent<Renderer>().material != GetComponent<Renderer>().material)
             {
