@@ -28083,7 +28083,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -140.53844, y: -4.153846}
+  m_AnchoredPosition: {x: -149.53844, y: -348.923}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &962255305
@@ -49364,7 +49364,7 @@ MonoBehaviour:
   slider: {fileID: 308543404}
   timeSlider: {fileID: 308543406}
   gameTime: 10
-  invisiblePowerCount: 1
+  invisiblePowerCount: 2
   invisiblePowerCountDisplay: {fileID: 1695977457}
   randomColor:
   - {fileID: 2100000, guid: 1880bd8b4d0896442978c09c70185376, type: 2}
@@ -51275,7 +51275,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -140.53845, y: -67.846146}
+  m_AnchoredPosition: {x: -149.53845, y: -412.61536}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1945172716
@@ -55221,7 +55221,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4613105698068811921, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613105698068811924, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
+      propertyPath: m_ScaleFactor
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4613105698068811926, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
       propertyPath: m_Pivot.x
@@ -60312,7 +60316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8707524251981497535, guid: 17fc70c4f29b81f4fbfe1cb1d6ebffda, type: 3}
       propertyPath: moveForward
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17fc70c4f29b81f4fbfe1cb1d6ebffda, type: 3}

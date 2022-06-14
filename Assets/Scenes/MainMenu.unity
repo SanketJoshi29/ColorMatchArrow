@@ -2031,6 +2031,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Transition
       objectReference: {fileID: 0}
+    - target: {fileID: 4613105698068811921, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613105698068811924, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
+      propertyPath: m_ScaleFactor
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613105698068811924, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613105698068811924, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 4613105698068811925, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
       propertyPath: m_Camera
       value: 

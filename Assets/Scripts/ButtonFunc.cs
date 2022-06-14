@@ -37,7 +37,7 @@ public class ButtonFunc : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
-    /*public void ChangeSkybox()
+    public void ChangeSkybox()
     {
         RenderSettings.skybox = skyboxOne;
         DynamicGI.UpdateEnvironment();
@@ -46,5 +46,5 @@ public class ButtonFunc : MonoBehaviour
     {
         RenderSettings.skybox = skyboxTwo;
         DynamicGI.UpdateEnvironment();
-    }*/
+    }
 }
