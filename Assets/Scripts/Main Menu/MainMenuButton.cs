@@ -6,7 +6,7 @@ public class MainMenuButton : MonoBehaviour
     public void StartButton()
     {
         FindObjectOfType<SceneChanger>().FadeToScene("MainLevel");
-        DisplayCoin.coinCount = 0;
+        DisplayCoin.coinCountWithZero = 0;
     }
 
     public void ShopButton()
