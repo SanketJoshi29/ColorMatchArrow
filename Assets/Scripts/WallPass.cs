@@ -9,6 +9,7 @@ public class WallPass : MonoBehaviour
     public GameObject destroyedWall;
     public Player movement;
     
+
     void OnTriggerEnter(Collider wall)
     {
         if(wall.GetComponent<Collider>().tag == "Player")
@@ -30,7 +31,7 @@ public class WallPass : MonoBehaviour
                 Time.timeScale = 0f;
                 FindObjectOfType<GameManager>().CrashMenu();
                 FindObjectOfType<HighScore>().HighScoreData();
-                PlayerPrefs.SetInt("CoinsCollected", DisplayCoin.coinCount);
+                //PlayerPrefs.SetInt("CoinsCollected", DisplayCoin.coinCount);
             }
             if(head.GetComponent<Renderer>().material.color == gameObject.GetComponent<Renderer>().material.color 
                 && body.GetComponent<Renderer>().material.color == gameObject.GetComponent<Renderer>().material.color

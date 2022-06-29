@@ -4,16 +4,17 @@ using UnityEngine.SceneManagement;
 public class ButtonFunc : MonoBehaviour
 {
     public static bool GameIsPaused = false;
+    public Player movement;
     public GameObject pauseMenu;
     public GameObject powerUI;
     public Material skyboxOne;
-     public Material skyboxTwo;
+    public Material skyboxTwo;
 
     public void RestartButton()
     {
         FindObjectOfType<SceneChanger>().FadeToScene("MainLevel");
         Time.timeScale = 1f;
-        DisplayCoin.coinCount = 0;
+        DisplayCoin.coinCountWithZero = 0;
     }
 
     public void MainMenuButton()
@@ -24,18 +25,20 @@ public class ButtonFunc : MonoBehaviour
 
     public void PauseButton()
     {
-        pauseMenu.SetActive(true);
-        powerUI.SetActive(false);
-        Time.timeScale = 0;
         GameIsPaused = true;
+        movement.enabled = false;
+        Time.timeScale = 0f;
+        pauseMenu.SetActive(true);
+        powerUI.SetActive(false);    
     }
 
     public void ContinueButton()
     {
-        pauseMenu.SetActive(false);
-        powerUI.SetActive(true);
-        Time.timeScale = 1f;
         GameIsPaused = false;
+        movement.enabled = true;
+        Time.timeScale = 1f;
+        pauseMenu.SetActive(false);
+        powerUI.SetActive(true); 
     }
     public void ChangeSkybox()
     {
