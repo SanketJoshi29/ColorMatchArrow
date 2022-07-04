@@ -3,17 +3,20 @@ using UnityEngine.UI;
 
 public class PowerUps : MonoBehaviour
 {
-    //Swap
+    //Swap---------------------------------------------------------
+    [Header ("Swap Power")]
     public GameObject head;
     public GameObject body;
     public GameObject tail;
-    public int swapPowerCount = 5;
+    public int swapPowerCount = 0;
     public GameObject swapPowerCountDisplay;
     Material swap;
 
-    //Transparent
+    //Transparent---------------------------------------------------
+    [Space (20f)]
+    [Header ("Invisible Power")]
     public Material transparent;
-    public BoxCollider b1;
+    public BoxCollider boxCollider;
     public float time;
     public bool buttonPressed = false;
     public GameObject slider;
@@ -24,12 +27,14 @@ public class PowerUps : MonoBehaviour
     Material headSwap;
     Material bodySwap;
     Material tailSwap;
-    public int invisiblePowerCount = 5;
+    public int invisiblePowerCount = 0;
     public GameObject invisiblePowerCountDisplay;
 
-    //RandomColor
+    //RandomColor------------------------------------------------------
+    [Space (20f)]
+    [Header ("RandomColor Power")]
     public Material[] randomColor;
-    public int randomPowerCount = 5;
+    public int randomPowerCount = 0;
     public GameObject randomPowerCountDisplay;
 
     void Start()
@@ -62,7 +67,7 @@ public class PowerUps : MonoBehaviour
                 head.GetComponent<Renderer>().material = headSwap;
                 body.GetComponent<Renderer>().material = bodySwap;
                 tail.GetComponent<Renderer>().material = tailSwap;
-                b1.enabled = true;
+                boxCollider.enabled = true;
             }
             else
             {
@@ -90,12 +95,12 @@ public class PowerUps : MonoBehaviour
         {
             buttonPressed = true;
             headSwap = head.GetComponent<Renderer>().material;
-            bodySwap= body.GetComponent<Renderer>().material;
+            bodySwap = body.GetComponent<Renderer>().material;
             tailSwap = tail.GetComponent<Renderer>().material;
             head.GetComponent<Renderer>().material = transparent;
             body.GetComponent<Renderer>().material = transparent;
             tail.GetComponent<Renderer>().material = transparent;
-            b1.enabled = false;
+            boxCollider.enabled = false;
             invisiblePowerCount--;
             invisiblePowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + invisiblePowerCount;
         }
