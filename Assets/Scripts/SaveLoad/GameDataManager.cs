@@ -1,3 +1,11 @@
+using System.Collections.Generic;
+
+//Shop Data Holder
+[System.Serializable] public class SkyShopData
+{
+	public List<int> purchasedSkyIndexes = new List<int>();
+}
+
 //Player Data Holder
 [System.Serializable] public class PlayerData
 {
@@ -14,7 +22,7 @@ public static class GameDataManager
 	}
 
 	//Player Data Methods -----------------------------------------------------------------------------
-
+	
 	public static int GetCoins ()
 	{
 		return playerData.coins;
@@ -48,33 +56,4 @@ public static class GameDataManager
 		BinarySerializer.Save (playerData, "player-data.txt");
 		UnityEngine.Debug.Log ("<color=magenta>[PlayerData] Saved.</color>");
 	}
-
-	//Characters Shop Data Methods -----------------------------------------------------------------------------
-	/*public static void AddPurchasedCharacter (int characterIndex)
-	{
-		charactersShopData.purchasedCharactersIndexes.Add (characterIndex);
-		SaveCharactersShoprData ();
-	}
-
-	public static List<int> GetAllPurchasedCharacter ()
-	{
-		return charactersShopData.purchasedCharactersIndexes;
-	}
-
-	public static int GetPurchasedCharacter (int index)
-	{
-		return charactersShopData.purchasedCharactersIndexes [index];
-	}
-
-	static void LoadCharactersShopData ()
-	{
-		charactersShopData = BinarySerializer.Load<CharactersShopData> ("characters-shop-data.txt");
-		UnityEngine.Debug.Log ("<color=green>[CharactersShopData] Loaded.</color>");
-	}
-
-	static void SaveCharactersShoprData ()
-	{
-		BinarySerializer.Save (charactersShopData, "characters-shop-data.txt");
-		UnityEngine.Debug.Log ("<color=magenta>[CharactersShopData] Saved.</color>");
-	}*/
 }

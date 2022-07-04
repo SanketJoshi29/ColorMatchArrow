@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 103d7580f25a43b44aec18c2c4c833b7, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b8c2a134adf9c8948840884e3c19ce19, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -49529,23 +49529,23 @@ MonoBehaviour:
   head: {fileID: 919132148170417539}
   body: {fileID: 5590653586231504776}
   tail: {fileID: 1841106502}
-  swapPowerCount: 5
+  swapPowerCount: 0
   swapPowerCountDisplay: {fileID: 1395775287}
   transparent: {fileID: 2100000, guid: 55a8c01f54cce0748952549191d9b79d, type: 2}
-  b1: {fileID: 919132148170417540}
+  boxCollider: {fileID: 0}
   time: 10
   buttonPressed: 0
   slider: {fileID: 308543404}
   timeSlider: {fileID: 308543406}
   gameTime: 10
-  invisiblePowerCount: 2
+  invisiblePowerCount: 0
   invisiblePowerCountDisplay: {fileID: 1695977457}
   randomColor:
   - {fileID: 2100000, guid: 1880bd8b4d0896442978c09c70185376, type: 2}
   - {fileID: 2100000, guid: d0adcd11c175bcd4f8284a32167c5d0e, type: 2}
   - {fileID: 2100000, guid: faf8075eba91f3c48a6b55266a34ecfc, type: 2}
   - {fileID: 2100000, guid: cb760c6923e917b47880b138ba270b5f, type: 2}
-  randomPowerCount: 5
+  randomPowerCount: 0
   randomPowerCountDisplay: {fileID: 465095135}
 --- !u!114 &1866061888
 MonoBehaviour:
@@ -57922,11 +57922,6 @@ GameObject:
 --- !u!1 &919132148170417539 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8707524251981497530, guid: 17fc70c4f29b81f4fbfe1cb1d6ebffda, type: 3}
-  m_PrefabInstance: {fileID: 8364942616669856057}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &919132148170417540 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 8707524251981497533, guid: 17fc70c4f29b81f4fbfe1cb1d6ebffda, type: 3}
   m_PrefabInstance: {fileID: 8364942616669856057}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &919132148170417542 stripped
