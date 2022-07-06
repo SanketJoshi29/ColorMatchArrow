@@ -8,8 +8,6 @@ public class PowerUps : MonoBehaviour
     public GameObject head;
     public GameObject body;
     public GameObject tail;
-    public int swapPowerCount = 0;
-    public GameObject swapPowerCountDisplay;
     Material swap;
 
     //Transparent---------------------------------------------------
@@ -18,6 +16,7 @@ public class PowerUps : MonoBehaviour
     public Material transparent;
     public BoxCollider boxCollider;
     public float time;
+    public Button invisibleBtn;
     public bool buttonPressed = false;
     public GameObject slider;
     public Slider timeSlider;
@@ -27,23 +26,16 @@ public class PowerUps : MonoBehaviour
     Material headSwap;
     Material bodySwap;
     Material tailSwap;
-    public int invisiblePowerCount = 0;
-    public GameObject invisiblePowerCountDisplay;
 
     //RandomColor------------------------------------------------------
     [Space (20f)]
     [Header ("RandomColor Power")]
     public Material[] randomColor;
-    public int randomPowerCount = 0;
-    public GameObject randomPowerCountDisplay;
 
     void Start()
     {
         timeSlider.maxValue = gameTime;
         timeSlider.value = gameTime;
-        swapPowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + swapPowerCount;
-        invisiblePowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + invisiblePowerCount;
-        randomPowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + randomPowerCount;
     }
     void Update()
     {
@@ -68,6 +60,7 @@ public class PowerUps : MonoBehaviour
                 body.GetComponent<Renderer>().material = bodySwap;
                 tail.GetComponent<Renderer>().material = tailSwap;
                 boxCollider.enabled = true;
+                invisibleBtn.interactable = true;
             }
             else
             {
@@ -78,20 +71,37 @@ public class PowerUps : MonoBehaviour
 
     public void ColorSwap()
     {
-        if(swapPowerCount != 0)
+         if(GameDataManager.GetSwapCount() != 0)
         {
             swap = head.GetComponent<Renderer>().material;
             head.GetComponent<Renderer>().material = body.GetComponent<Renderer>().material;
             body.GetComponent<Renderer>().material = swap;
-            swapPowerCount--;
-            swapPowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + swapPowerCount;
+            GameDataManager.SubtractSwapCount(1);
+            PowerCount.Instance.UpdateSwapCountText();
         }
         
     }
 
+    public void RandomColor()
+    {
+        if(GameDataManager.GetRandomCount() != 0)
+        {
+            if(head.GetComponent<Renderer>().material.color == Color.white 
+                && body.GetComponent<Renderer>().material.color == Color.white
+                    && tail.GetComponent<Renderer>().material.color == Color.white)
+            {
+                head.GetComponent<Renderer>().material = randomColor[Random.Range(0, randomColor.Length)];
+                body.GetComponent<Renderer>().material = head.GetComponent<Renderer>().material;
+                tail.GetComponent<Renderer>().material = head.GetComponent<Renderer>().material;
+                GameDataManager.SubtractRandomCount(1);
+                PowerCount.Instance.UpdateRandomCountText();
+            }
+        }
+    }
+
     public void Transparent()
     {
-        if(invisiblePowerCount != 0)
+        if(GameDataManager.GetInvisibleCount() != 0)
         {
             buttonPressed = true;
             headSwap = head.GetComponent<Renderer>().material;
@@ -101,25 +111,9 @@ public class PowerUps : MonoBehaviour
             body.GetComponent<Renderer>().material = transparent;
             tail.GetComponent<Renderer>().material = transparent;
             boxCollider.enabled = false;
-            invisiblePowerCount--;
-            invisiblePowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + invisiblePowerCount;
-        }
-    }
-
-    public void RandomColor()
-    {
-        if(randomPowerCount != 0)
-        {
-            if(head.GetComponent<Renderer>().material.color == Color.white 
-                && body.GetComponent<Renderer>().material.color == Color.white
-                    && tail.GetComponent<Renderer>().material.color == Color.white)
-            {
-                head.GetComponent<Renderer>().material = randomColor[Random.Range(0, randomColor.Length)];
-                body.GetComponent<Renderer>().material = head.GetComponent<Renderer>().material;
-                tail.GetComponent<Renderer>().material = head.GetComponent<Renderer>().material;
-                randomPowerCount--;
-                randomPowerCountDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = " " + randomPowerCount;
-            }
+            invisibleBtn.interactable = false;
+            GameDataManager.SubtractInvisibleCount(1);
+            PowerCount.Instance.UpdateInvisibleCountText();
         }
     }
 }

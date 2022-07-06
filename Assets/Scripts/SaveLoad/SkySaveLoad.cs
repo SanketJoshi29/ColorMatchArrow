@@ -62,6 +62,6 @@ public class SkySaveLoad : MonoBehaviour
     public void ClearData()
     {
         Debug.Log("Data Cleared");
-        PlayerPrefs.SetInt("GameStartFirstTime", 0);
+        PlayerPrefs.SetInt("GameStartedFirstTime", 0);
     }
 }
