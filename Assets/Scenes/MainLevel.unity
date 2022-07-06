@@ -28364,6 +28364,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194229}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -28450,6 +28451,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 543450652444376889}
   offset: {x: 0, y: 0, z: 0}
+--- !u!45 &963194230
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!1 &966295676
 GameObject:
   m_ObjectHideFlags: 0
@@ -49428,6 +49438,7 @@ GameObject:
   - component: {fileID: 1866061885}
   - component: {fileID: 1866061886}
   - component: {fileID: 1866061887}
+  - component: {fileID: 1866061890}
   - component: {fileID: 1866061888}
   - component: {fileID: 1866061889}
   m_Layer: 0
@@ -49465,7 +49476,7 @@ Transform:
   m_Children:
   - {fileID: 389141731}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1866061884
 MonoBehaviour:
@@ -49529,24 +49540,19 @@ MonoBehaviour:
   head: {fileID: 919132148170417539}
   body: {fileID: 5590653586231504776}
   tail: {fileID: 1841106502}
-  swapPowerCount: 0
-  swapPowerCountDisplay: {fileID: 1395775287}
   transparent: {fileID: 2100000, guid: 55a8c01f54cce0748952549191d9b79d, type: 2}
-  boxCollider: {fileID: 0}
+  boxCollider: {fileID: 8364942616669856058}
   time: 10
+  invisibleBtn: {fileID: 394438612}
   buttonPressed: 0
   slider: {fileID: 308543404}
   timeSlider: {fileID: 308543406}
   gameTime: 10
-  invisiblePowerCount: 0
-  invisiblePowerCountDisplay: {fileID: 1695977457}
   randomColor:
   - {fileID: 2100000, guid: 1880bd8b4d0896442978c09c70185376, type: 2}
   - {fileID: 2100000, guid: d0adcd11c175bcd4f8284a32167c5d0e, type: 2}
   - {fileID: 2100000, guid: faf8075eba91f3c48a6b55266a34ecfc, type: 2}
   - {fileID: 2100000, guid: cb760c6923e917b47880b138ba270b5f, type: 2}
-  randomPowerCount: 0
-  randomPowerCountDisplay: {fileID: 465095135}
 --- !u!114 &1866061888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49583,6 +49589,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1866061890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866061881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd118a3f305e044f86232da57b7cd01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swapCount: {fileID: 1395775289}
+  randomCount: {fileID: 465095137}
+  invisibleCount: {fileID: 1695977458}
 --- !u!1001 &1866486739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55471,7 +55492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4613105698068811921, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4613105698068811924, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
       propertyPath: m_ScaleFactor
@@ -55495,7 +55516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4613105698068811926, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4613105698068811926, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
       propertyPath: m_AnchorMax.x
@@ -60573,6 +60594,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17fc70c4f29b81f4fbfe1cb1d6ebffda, type: 3}
+--- !u!65 &8364942616669856058 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 8707524251981497533, guid: 17fc70c4f29b81f4fbfe1cb1d6ebffda, type: 3}
+  m_PrefabInstance: {fileID: 8364942616669856057}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8644190537092227206
 PrefabInstance:
   m_ObjectHideFlags: 0

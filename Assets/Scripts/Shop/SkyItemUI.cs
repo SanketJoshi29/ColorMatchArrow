@@ -7,8 +7,9 @@ public class SkyItemUI : MonoBehaviour
 	public SkyShopDatabase shopData;
 	public GameObject[] skyImages;
 	public TMP_Text unlockBtnText;
-	public Button unlockBtn, nextBtn, previousBtn;
+	public Button unlockBtn, nextBtn, previousBtn, clearBtn;
 	public SkySaveLoad skySaveLoad;
+	public Skybox mainSkybox;
 
 	private int currentIndex = 0;
 	private int selectedIndex = 0;
@@ -22,6 +23,7 @@ public class SkyItemUI : MonoBehaviour
 		unlockBtn.onClick.AddListener(()=> UnlockSelectBtnMethod());
 		nextBtn.onClick.AddListener(()=> NextBtnMethod());
 		previousBtn.onClick.AddListener(()=> PreviousBtnMethod());
+		clearBtn.onClick.AddListener(()=> ClearCache());
 
 		skyImages[currentIndex].SetActive(true);
 
@@ -84,6 +86,8 @@ public class SkyItemUI : MonoBehaviour
 				DisplayCoin.Instance.UpdateCoinsUIText();
 				isSelected = true;
 				shopData.shopItems[currentIndex].isUnlock = true;
+				mainSkybox.material = shopData.shopItems[currentIndex].skybox;
+        		//DynamicGI.UpdateEnvironment();
 				skySaveLoad.SaveData();
 			}
 		}
@@ -102,7 +106,7 @@ public class SkyItemUI : MonoBehaviour
 		if(shopData.shopItems[currentIndex].isUnlock)
 		{
 			unlockBtn.interactable = selectedIndex != currentIndex ? true : false;
-			unlockBtnText.text = selectedIndex == currentIndex ? "Selected" : "Equip";
+			unlockBtnText.text = selectedIndex == currentIndex ? "Selected" : "Select";
 		}
 		else
 		{
@@ -111,7 +115,17 @@ public class SkyItemUI : MonoBehaviour
 		}
 	}
 
-	
+	public void EquipBtn()
+	{
+		if(unlockBtnText.text == "Select")
+		{
+			mainSkybox.material = shopData.shopItems[currentIndex].skybox;
+		}
+	}
+	private void ClearCache()
+	{
+		skySaveLoad.ClearData();
+	}
 }
 
 

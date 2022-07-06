@@ -13,5 +13,6 @@ public class ShopItem
 {
 	public string skyName;
 	public int unlockCost;
+	public Material skybox;
 	public bool isUnlock;
 }
