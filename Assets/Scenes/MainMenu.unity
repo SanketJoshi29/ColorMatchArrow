@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 34169102}
   - component: {fileID: 34169101}
-  - component: {fileID: 34169103}
+  - component: {fileID: 34169104}
   m_Layer: 0
   m_Name: ButtonManager
   m_TagString: Untagged
@@ -165,21 +165,25 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &34169103
+--- !u!114 &34169104
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 34169100}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a26156bb97e0184eb14ae5710b24bed, type: 3}
+  m_Script: {fileID: 11500000, guid: 93397fda1d78d8e4bb35585ad9c0d474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeSky: {fileID: 0}
+  index: 0
+  skyboxCollection:
+  - {fileID: 2100000, guid: b8c2a134adf9c8948840884e3c19ce19, type: 2}
+  - {fileID: 2100000, guid: 103d7580f25a43b44aec18c2c4c833b7, type: 2}
+  - {fileID: 2100000, guid: 90644374d2bf30143b54a2b0d40223eb, type: 2}
   mainSkybox: {fileID: 510442979}
 --- !u!1 &510442975
 GameObject:
@@ -263,7 +267,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!45 &510442979
 Skybox:
@@ -901,7 +905,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1253145686
 GameObject:
@@ -1540,7 +1544,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1871063854
 GameObject:
@@ -1636,7 +1640,7 @@ RectTransform:
   - {fileID: 713119638}
   - {fileID: 1750713149}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2086,7 +2090,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4613105698068811926, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4613105698068811926, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
       propertyPath: m_AnchorMax.x

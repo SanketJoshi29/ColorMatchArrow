@@ -87,6 +87,7 @@ public class SkyItemUI : MonoBehaviour
 				isSelected = true;
 				shopData.shopItems[currentIndex].isUnlock = true;
 				mainSkybox.material = shopData.shopItems[currentIndex].skybox;
+				PlayerPrefs.SetInt("SkyBoxSelected", currentIndex);
         		//DynamicGI.UpdateEnvironment();
 				skySaveLoad.SaveData();
 			}
@@ -120,6 +121,7 @@ public class SkyItemUI : MonoBehaviour
 		if(unlockBtnText.text == "Select")
 		{
 			mainSkybox.material = shopData.shopItems[currentIndex].skybox;
+			PlayerPrefs.SetInt("SkyBoxSelected", currentIndex);
 		}
 	}
 	private void ClearCache()

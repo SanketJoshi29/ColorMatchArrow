@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: b8c2a134adf9c8948840884e3c19ce19, type: 2}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -5536,8 +5536,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1645659109}
-  - {fileID: 1239506411}
   - {fileID: 1696553214}
+  - {fileID: 1239506411}
   m_Father: {fileID: 930183234}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25703,7 +25703,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -102.49921, y: -78.78284}
+  m_AnchoredPosition: {x: -102.49927, y: -78.782715}
   m_SizeDelta: {x: 410.997, y: 138.88708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &883095458
@@ -34457,11 +34457,11 @@ RectTransform:
   - {fileID: 394438611}
   - {fileID: 1695977460}
   m_Father: {fileID: 185233352}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19.618, y: 1.1169}
+  m_AnchoredPosition: {x: -19.618, y: -45}
   m_SizeDelta: {x: 169.11, y: 28.5186}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1241587758
@@ -44552,7 +44552,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 3.9999788, y: 51.460175}
+  m_AnchoredPosition: {x: 3.28, y: 51.460175}
   m_SizeDelta: {x: 169.11, y: 39.0946}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!1 &1658386260
@@ -45327,11 +45327,11 @@ RectTransform:
   - {fileID: 483370730}
   - {fileID: 465095136}
   m_Father: {fileID: 185233352}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 51}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1700062744
@@ -49440,6 +49440,7 @@ GameObject:
   - component: {fileID: 1866061887}
   - component: {fileID: 1866061890}
   - component: {fileID: 1866061888}
+  - component: {fileID: 1866061891}
   - component: {fileID: 1866061889}
   m_Layer: 0
   m_Name: GameManager
@@ -49604,6 +49605,24 @@ MonoBehaviour:
   swapCount: {fileID: 1395775289}
   randomCount: {fileID: 465095137}
   invisibleCount: {fileID: 1695977458}
+--- !u!114 &1866061891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866061881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93397fda1d78d8e4bb35585ad9c0d474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0
+  skyboxCollection:
+  - {fileID: 2100000, guid: b8c2a134adf9c8948840884e3c19ce19, type: 2}
+  - {fileID: 2100000, guid: 103d7580f25a43b44aec18c2c4c833b7, type: 2}
+  - {fileID: 2100000, guid: 90644374d2bf30143b54a2b0d40223eb, type: 2}
+  mainSkybox: {fileID: 963194230}
 --- !u!1001 &1866486739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55492,7 +55511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4613105698068811921, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4613105698068811924, guid: eebff3832f9c4734ba929ec21117ebee, type: 3}
       propertyPath: m_ScaleFactor
