@@ -4,36 +4,48 @@ using TMPro;
 
 public class PowersShop : MonoBehaviour
 {
-    public TMP_Text swapText;
-    public TMP_Text swapPriceText;
+    public TMP_Text swapCountText;
+    public TMP_Text randomColorCountText;
+    public TMP_Text invisibleCountText;
 
-    public TMP_Text randomColorText;
-    public TMP_Text randomColorPriceText;
+    public Animator animator;
+    public Image popImage;
+    public bool isPoping = false;
 
-    public TMP_Text invisibleText;
-    public TMP_Text invisiblePriceText;
+    public void PopInUI(Image popImage)
+    {
+        isPoping = true;
+        animator.SetBool("PopUp_Out", true);
+    }
 
+    public void PopOutUI(Image popImage)
+    {
+        isPoping = false;
+        animator.SetBool("PopUp_Out", false);
+    }
+    
     public void BuySwapPowers()
     {
-        if(GameDataManager.CanSpendCoins(100))
+        if(GameDataManager.CanSpendCoins(1))
         {
-            GameDataManager.SpendCoins(100);
+            GameDataManager.SpendCoins(10);
             DisplayCoin.Instance.UpdateCoinsUIText(); 
 
-            GameDataManager.AddSwapCount(1);
+            GameDataManager.AddSwapCount(10);
             PowerCount.Instance.UpdateSwapCountText();
         }
         else
         {
             Debug.Log("Not Enough Money");
+            PopInUI(popImage);
         }
     }
 
     public void BuyRandomPowers()
     {
-        if(GameDataManager.CanSpendCoins(200))
+        if(GameDataManager.CanSpendCoins(10))
         {
-            GameDataManager.SpendCoins(200);
+            GameDataManager.SpendCoins(10);
             DisplayCoin.Instance.UpdateCoinsUIText(); 
 
             GameDataManager.AddRandomCount(1);
@@ -42,14 +54,15 @@ public class PowersShop : MonoBehaviour
         else
         {
             Debug.Log("Not Enough Money");
+            PopInUI(popImage);
         }
     }
 
     public void BuyInvisiblePowers()
     {
-        if(GameDataManager.CanSpendCoins(300))
+        if(GameDataManager.CanSpendCoins(10))
         {
-            GameDataManager.SpendCoins(300);
+            GameDataManager.SpendCoins(10);
             DisplayCoin.Instance.UpdateCoinsUIText(); 
 
             GameDataManager.AddInvisibleCount(1);
@@ -58,6 +71,7 @@ public class PowersShop : MonoBehaviour
         else
         {
             Debug.Log("Not Enough Money");
+            PopInUI(popImage);
         }
     }
 }

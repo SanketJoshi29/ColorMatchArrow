@@ -12,7 +12,7 @@ public class CoinCollect : MonoBehaviour
 
     void OnTriggerEnter(Collider coin)
     {
-        GameDataManager.AddCoins(50);
+        GameDataManager.AddCoins(10);
         this.gameObject.SetActive(false);
         DisplayCoin.Instance.UpdateCoinsUIText();
 
