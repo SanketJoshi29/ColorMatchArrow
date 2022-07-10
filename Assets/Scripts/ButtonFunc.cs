@@ -40,14 +40,4 @@ public class ButtonFunc : MonoBehaviour
         pauseMenu.SetActive(false);
         powerUI.SetActive(true); 
     }
-    public void ChangeSkybox()
-    {
-        RenderSettings.skybox = skyboxOne;
-        DynamicGI.UpdateEnvironment();
-    }
-    public void ChangeSkyboxBlue()
-    {
-        RenderSettings.skybox = skyboxTwo;
-        DynamicGI.UpdateEnvironment();
-    }
 }

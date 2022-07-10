@@ -10,6 +10,7 @@ public class SkyItemUI : MonoBehaviour
 	public Button unlockBtn, nextBtn, previousBtn, clearBtn;
 	public SkySaveLoad skySaveLoad;
 	public Skybox mainSkybox;
+	public Image popImage;
 
 	private int currentIndex = 0;
 	private int selectedIndex = 0;
@@ -91,6 +92,11 @@ public class SkyItemUI : MonoBehaviour
         		//DynamicGI.UpdateEnvironment();
 				skySaveLoad.SaveData();
 			}
+			else
+			{
+				FindObjectOfType<PowersShop>().PopInUI(popImage);
+				Debug.Log("Not Enough Money");
+			}	
 		}
 
 		if(isSelected)

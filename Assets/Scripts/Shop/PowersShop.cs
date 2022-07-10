@@ -8,31 +8,48 @@ public class PowersShop : MonoBehaviour
     public TMP_Text randomColorCountText;
     public TMP_Text invisibleCountText;
 
-    public Animator animator;
+    public Animator popUpAnimator;
     public Image popImage;
     public bool isPoping = false;
+
+    public Animator purchaseAnimator;
+    public Image purchaseImage;
+    public bool isPurchasedPoping = false;
 
     public void PopInUI(Image popImage)
     {
         isPoping = true;
-        animator.SetBool("PopUp_Out", true);
+       popUpAnimator.SetBool("PopUp_Out", true);
     }
 
     public void PopOutUI(Image popImage)
     {
         isPoping = false;
-        animator.SetBool("PopUp_Out", false);
+        popUpAnimator.SetBool("PopUp_Out", false);
+    }
+
+    public void PurchasedPopInUI(Image purchaseImage)
+    {
+        isPurchasedPoping = true;
+        purchaseAnimator.SetBool("Purchase_Out", true);
+    }
+
+    public void PurchasedPopOutUI(Image purchaseImage)
+    {
+        isPurchasedPoping = false;
+        purchaseAnimator.SetBool("Purchase_Out", false);
     }
     
     public void BuySwapPowers()
     {
-        if(GameDataManager.CanSpendCoins(1))
+        if(GameDataManager.CanSpendCoins(10))
         {
             GameDataManager.SpendCoins(10);
             DisplayCoin.Instance.UpdateCoinsUIText(); 
 
-            GameDataManager.AddSwapCount(10);
+            GameDataManager.AddSwapCount(1);
             PowerCount.Instance.UpdateSwapCountText();
+            PurchasedPopInUI(purchaseImage);
         }
         else
         {
@@ -50,6 +67,7 @@ public class PowersShop : MonoBehaviour
 
             GameDataManager.AddRandomCount(1);
             PowerCount.Instance.UpdateRandomCountText();
+            PurchasedPopInUI(purchaseImage);
         }
         else
         {
@@ -67,6 +85,7 @@ public class PowersShop : MonoBehaviour
 
             GameDataManager.AddInvisibleCount(1);
             PowerCount.Instance.UpdateInvisibleCountText();
+            PurchasedPopInUI(purchaseImage);
         }
         else
         {
