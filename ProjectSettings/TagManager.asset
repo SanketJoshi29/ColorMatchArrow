@@ -6,6 +6,15 @@ TagManager:
   tags:
   - Coin Detector
   - Player Bubble
+  - TriggerOne
+  - TriggerTwo
+  - TriggerThree
+  - TriggerFour
+  - TriggerFive
+  - TriggerSix
+  - TriggerSeven
+  - TriggerEight
+  - TriggerNine
   layers:
   - Default
   - TransparentFX

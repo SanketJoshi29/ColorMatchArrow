@@ -14,6 +14,11 @@ public class MainMenuButton : MonoBehaviour
         FindObjectOfType<SceneChanger>().FadeToScene("Shop");
     }
 
+    public void TutorialButton()
+    {
+        FindObjectOfType<SceneChanger>().FadeToScene("Tutorial");
+    }
+
     public void Quit()
     {
         Debug.Log("Quit");
