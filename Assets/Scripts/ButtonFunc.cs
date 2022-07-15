@@ -7,8 +7,6 @@ public class ButtonFunc : MonoBehaviour
     public Player movement;
     public GameObject pauseMenu;
     public GameObject powerUI;
-    public Material skyboxOne;
-    public Material skyboxTwo;
 
     public void RestartButton()
     {
