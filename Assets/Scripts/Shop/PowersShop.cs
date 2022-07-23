@@ -7,6 +7,7 @@ public class PowersShop : MonoBehaviour
     public TMP_Text swapCountText;
     public TMP_Text randomColorCountText;
     public TMP_Text invisibleCountText;
+    public GameObject panel;
 
     public Animator popUpAnimator;
     public Image popImage;
@@ -19,24 +20,28 @@ public class PowersShop : MonoBehaviour
     public void PopInUI(Image popImage)
     {
         isPoping = true;
-       popUpAnimator.SetBool("PopUp_Out", true);
+        panel.SetActive(true);
+        popUpAnimator.SetBool("PopUp_Out", true);
     }
 
     public void PopOutUI(Image popImage)
     {
         isPoping = false;
+        panel.SetActive(false);
         popUpAnimator.SetBool("PopUp_Out", false);
     }
 
     public void PurchasedPopInUI(Image purchaseImage)
     {
         isPurchasedPoping = true;
+        panel.SetActive(true);
         purchaseAnimator.SetBool("Purchase_Out", true);
     }
 
     public void PurchasedPopOutUI(Image purchaseImage)
     {
         isPurchasedPoping = false;
+        panel.SetActive(false);
         purchaseAnimator.SetBool("Purchase_Out", false);
     }
     
