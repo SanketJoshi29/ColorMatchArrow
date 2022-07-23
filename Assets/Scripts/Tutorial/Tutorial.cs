@@ -118,4 +118,9 @@ public class Tutorial : MonoBehaviour
         FindObjectOfType<SceneChanger>().FadeToScene("Tutorial");
         Time.timeScale = 1f;
     }
+
+    public void BackButton()
+    {
+        FindObjectOfType<SceneChanger>().FadeToScene("MainMenu");
+    }
 }

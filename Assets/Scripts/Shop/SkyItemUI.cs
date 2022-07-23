@@ -11,6 +11,7 @@ public class SkyItemUI : MonoBehaviour
 	public SkySaveLoad skySaveLoad;
 	public Skybox mainSkybox;
 	public Image popImage;
+	public Image purchaseImage;
 
 	private int currentIndex = 0;
 	private int selectedIndex = 0;
@@ -89,7 +90,7 @@ public class SkyItemUI : MonoBehaviour
 				shopData.shopItems[currentIndex].isUnlock = true;
 				mainSkybox.material = shopData.shopItems[currentIndex].skybox;
 				PlayerPrefs.SetInt("SkyBoxSelected", currentIndex);
-        		//DynamicGI.UpdateEnvironment();
+				FindObjectOfType<PowersShop>().PurchasedPopInUI(purchaseImage);
 				skySaveLoad.SaveData();
 			}
 			else
