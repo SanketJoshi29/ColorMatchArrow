@@ -37,12 +37,12 @@ public class PowerUps : MonoBehaviour
         timeSlider.maxValue = gameTime;
         timeSlider.value = gameTime;
     }
-    void Update()
+    void FixedUpdate()
     {
         if(buttonPressed == true)
         {
             slider.SetActive(true);
-            timer += Time.deltaTime;
+            timer += Time.fixedDeltaTime;
             time = gameTime - timer;
 
             if(stopTimer == false)

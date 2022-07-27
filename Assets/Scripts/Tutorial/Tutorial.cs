@@ -122,5 +122,6 @@ public class Tutorial : MonoBehaviour
     public void BackButton()
     {
         FindObjectOfType<SceneChanger>().FadeToScene("MainMenu");
+        Time.timeScale = 1f;
     }
 }

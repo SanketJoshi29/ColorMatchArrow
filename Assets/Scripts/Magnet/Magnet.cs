@@ -63,6 +63,12 @@ public class Magnet : MonoBehaviour
             triggered = true;
             Destroy(transform.GetChild(0).gameObject);
         }
+        if(other.gameObject.tag == "Player Bubble")
+        {
+            StartCoroutine(ActivateCoin());
+            triggered = true;
+            Destroy(transform.GetChild(0).gameObject);
+        }
     }
 
     IEnumerator ActivateCoin()

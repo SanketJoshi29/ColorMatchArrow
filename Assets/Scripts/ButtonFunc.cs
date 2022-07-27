@@ -7,6 +7,7 @@ public class ButtonFunc : MonoBehaviour
     public Player movement;
     public GameObject pauseMenu;
     public GameObject powerUI;
+    public GameObject panel;
 
     public void RestartButton()
     {
@@ -27,7 +28,8 @@ public class ButtonFunc : MonoBehaviour
         movement.enabled = false;
         Time.timeScale = 0f;
         pauseMenu.SetActive(true);
-        powerUI.SetActive(false);    
+        powerUI.SetActive(false); 
+        panel.SetActive(true);   
     }
 
     public void ContinueButton()
@@ -36,6 +38,7 @@ public class ButtonFunc : MonoBehaviour
         movement.enabled = true;
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
-        powerUI.SetActive(true); 
+        powerUI.SetActive(true);
+        panel.SetActive(false);
     }
 }
