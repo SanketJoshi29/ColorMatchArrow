@@ -6,6 +6,17 @@ public class GameManager : MonoBehaviour
     public bool gameHasEnded = false;
     public GameObject crashMenu;
     public GameObject powerUI;
+    public GameObject panel;
+
+    public int target = 60;
+
+    public void FixedUpdate()
+    {
+        if (target != Application.targetFrameRate)
+        {
+            Application.targetFrameRate = target;
+        }   
+    }
 
     public void EndGame()
     {
@@ -20,6 +31,7 @@ public class GameManager : MonoBehaviour
     public void CrashMenu()
     {
         crashMenu.SetActive(true);
-        powerUI.SetActive(false);   
+        powerUI.SetActive(false);
+        panel.SetActive(true);
     }
 }

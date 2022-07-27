@@ -12212,6 +12212,8 @@ MonoBehaviour:
   gameHasEnded: 0
   crashMenu: {fileID: 1428870288}
   powerUI: {fileID: 1050299752}
+  panel: {fileID: 0}
+  target: 60
 --- !u!4 &1866061883
 Transform:
   m_ObjectHideFlags: 0

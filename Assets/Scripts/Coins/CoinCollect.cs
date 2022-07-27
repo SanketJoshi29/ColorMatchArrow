@@ -35,5 +35,13 @@ public class CoinCollect : MonoBehaviour
 
             DisplayCoin.coinCountWithZero += 1;
         }
+        if(coin.gameObject.tag == "Player Bubble")
+        {
+            GameDataManager.AddCoins(1);
+            this.gameObject.SetActive(false);
+            DisplayCoin.Instance.UpdateCoinsUIText();
+
+            DisplayCoin.coinCountWithZero += 1;
+        }
     }
 }

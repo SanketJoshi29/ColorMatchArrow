@@ -10,6 +10,7 @@ public class SkyItemUI : MonoBehaviour
 	public Button unlockBtn, nextBtn, previousBtn, clearBtn;
 	public SkySaveLoad skySaveLoad;
 	public Skybox mainSkybox;
+	public GameObject[] grounds;
 	public Image popImage;
 	public Image purchaseImage;
 
@@ -89,6 +90,10 @@ public class SkyItemUI : MonoBehaviour
 				isSelected = true;
 				shopData.shopItems[currentIndex].isUnlock = true;
 				mainSkybox.material = shopData.shopItems[currentIndex].skybox;
+				foreach(GameObject ground in grounds) 
+				{
+         			ground.GetComponent<Renderer>().material = shopData.shopItems[currentIndex].groundColor;
+  				}
 				PlayerPrefs.SetInt("SkyBoxSelected", currentIndex);
 				FindObjectOfType<PowersShop>().PurchasedPopInUI(purchaseImage);
 				skySaveLoad.SaveData();
