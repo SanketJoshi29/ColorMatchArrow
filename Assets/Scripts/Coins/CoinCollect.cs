@@ -8,6 +8,7 @@ public class CoinCollect : MonoBehaviour
     public Transform playerTransform;
     public float moveSpeed = 17f;
     CoinMove coinMoveScript;
+    public AudioSource coinSound;
     
     void Start()
     {
@@ -32,6 +33,7 @@ public class CoinCollect : MonoBehaviour
             GameDataManager.AddCoins(1);
             this.gameObject.SetActive(false);
             DisplayCoin.Instance.UpdateCoinsUIText();
+            coinSound.Play();
 
             DisplayCoin.coinCountWithZero += 1;
         }
@@ -40,6 +42,7 @@ public class CoinCollect : MonoBehaviour
             GameDataManager.AddCoins(1);
             this.gameObject.SetActive(false);
             DisplayCoin.Instance.UpdateCoinsUIText();
+            coinSound.Play();
 
             DisplayCoin.coinCountWithZero += 1;
         }

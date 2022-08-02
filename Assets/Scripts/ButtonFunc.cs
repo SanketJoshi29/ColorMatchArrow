@@ -8,6 +8,7 @@ public class ButtonFunc : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject powerUI;
     public GameObject panel;
+    public AudioSource music;
 
     public void RestartButton()
     {
@@ -19,6 +20,7 @@ public class ButtonFunc : MonoBehaviour
     public void MainMenuButton()
     {
         FindObjectOfType<SceneChanger>().FadeToScene("MainMenu");
+        BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Play();
         Time.timeScale = 1f;
     }
 
@@ -29,7 +31,12 @@ public class ButtonFunc : MonoBehaviour
         Time.timeScale = 0f;
         pauseMenu.SetActive(true);
         powerUI.SetActive(false); 
-        panel.SetActive(true);   
+        panel.SetActive(true);
+
+        if(GameIsPaused)
+        {
+            music.Pause();
+        }  
     }
 
     public void ContinueButton()
@@ -40,5 +47,10 @@ public class ButtonFunc : MonoBehaviour
         pauseMenu.SetActive(false);
         powerUI.SetActive(true);
         panel.SetActive(false);
+
+        if(GameIsPaused == false)
+        {
+            music.Play();
+        }
     }
 }
