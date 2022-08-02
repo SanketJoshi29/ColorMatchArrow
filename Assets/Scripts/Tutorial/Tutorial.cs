@@ -96,7 +96,7 @@ public class Tutorial : MonoBehaviour
 
     public void NextButtonMethod()
     {
-        movement.moveForward = 3f;
+        movement.moveForward = 7f;
         panel.SetActive(false);
         for (int i = 0; i < text.Length; i++)
         {
@@ -111,6 +111,7 @@ public class Tutorial : MonoBehaviour
     public void MenuButtonMethod()
     {
         FindObjectOfType<SceneChanger>().FadeToScene("MainMenu");
+        BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Play();
     }
     
     public void RestartButton()
@@ -123,5 +124,6 @@ public class Tutorial : MonoBehaviour
     {
         FindObjectOfType<SceneChanger>().FadeToScene("MainMenu");
         Time.timeScale = 1f;
+        BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Play();
     }
 }

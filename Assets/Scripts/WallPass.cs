@@ -8,6 +8,8 @@ public class WallPass : MonoBehaviour
     //public ParticleSystem particle;
     public GameObject destroyedWall;
     public Player movement;
+    public AudioSource crashSound;
+    public AudioSource track;
     
 
     void OnTriggerEnter(Collider wall)
@@ -29,6 +31,8 @@ public class WallPass : MonoBehaviour
                 FindObjectOfType<GameManager>().EndGame();
                 movement.enabled = false;
                 Time.timeScale = 0f;
+                crashSound.enabled = true;
+                track.enabled = false;
                 FindObjectOfType<GameManager>().CrashMenu();
                 FindObjectOfType<HighScore>().HighScoreData();
                 //PlayerPrefs.SetInt("CoinsCollected", DisplayCoin.coinCount);

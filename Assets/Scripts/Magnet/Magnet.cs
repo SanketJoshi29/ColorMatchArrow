@@ -19,8 +19,8 @@ public class Magnet : MonoBehaviour
 
     void Start()
     {
-        coinDetectorObj = GameObject.FindGameObjectWithTag("Coin Detector");
-        coinDetectorObj.SetActive(false);
+        //coinDetectorObj = GameObject.FindGameObjectWithTag("Coin Detector");
+        //coinDetectorObj.SetActive(false);
 
         timeSlider.maxValue = gameTime;
         timeSlider.value = gameTime;
