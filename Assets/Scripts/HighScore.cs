@@ -7,7 +7,7 @@ public class HighScore : MonoBehaviour
     void Start()
     {
         //PlayerPrefs.DeleteKey("HighScore");
-        transform.position = new Vector3(18, 1.5f, PlayerPrefs.GetFloat("HighScore",0));
+        transform.position = new Vector3(-1.25f, 3f, PlayerPrefs.GetFloat("HighScore",0));
     }
 
     public void HighScoreData()
