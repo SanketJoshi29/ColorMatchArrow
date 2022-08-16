@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuButton : MonoBehaviour
 {
+    private string url;
+
     public void StartButton()
     {
         FindObjectOfType<SceneChanger>().FadeToScene("MainLevel");
@@ -19,9 +21,8 @@ public class MainMenuButton : MonoBehaviour
         FindObjectOfType<SceneChanger>().FadeToScene("Tutorial");
     }
 
-    public void Quit()
+    public void MoreGames(string url)
     {
-        Debug.Log("Quit");
-        Application.Quit();
+        Application.OpenURL(url);
     }
 }
