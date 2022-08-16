@@ -15,6 +15,7 @@ TagManager:
   - TriggerSeven
   - TriggerEight
   - TriggerNine
+  - Disable
   layers:
   - Default
   - TransparentFX

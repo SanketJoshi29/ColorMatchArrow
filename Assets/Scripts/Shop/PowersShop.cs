@@ -43,6 +43,24 @@ public class PowersShop : MonoBehaviour
         isPurchasedPoping = false;
         panel.SetActive(false);
         purchaseAnimator.SetBool("Purchase_Out", false);
+    }    
+
+    public void BuyRandomPowers()
+    {
+        if(GameDataManager.CanSpendCoins(10))
+        {
+            GameDataManager.SpendCoins(10);
+            DisplayCoin.Instance.UpdateCoinsUIText(); 
+
+            GameDataManager.AddRandomCount(1);
+            PowerCount.Instance.UpdateRandomCountText();
+            PurchasedPopInUI(purchaseImage);
+        }
+        else
+        {
+            Debug.Log("Not Enough Money");
+            PopInUI(popImage);
+        }
     }
     
     public void BuySwapPowers()
@@ -54,24 +72,6 @@ public class PowersShop : MonoBehaviour
 
             GameDataManager.AddSwapCount(1);
             PowerCount.Instance.UpdateSwapCountText();
-            PurchasedPopInUI(purchaseImage);
-        }
-        else
-        {
-            Debug.Log("Not Enough Money");
-            PopInUI(popImage);
-        }
-    }
-
-    public void BuyRandomPowers()
-    {
-        if(GameDataManager.CanSpendCoins(10))
-        {
-            GameDataManager.SpendCoins(10);
-            DisplayCoin.Instance.UpdateCoinsUIText(); 
-
-            GameDataManager.AddRandomCount(1);
-            PowerCount.Instance.UpdateRandomCountText();
             PurchasedPopInUI(purchaseImage);
         }
         else

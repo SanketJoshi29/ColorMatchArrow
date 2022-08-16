@@ -9932,8 +9932,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameHasEnded: 0
   crashMenu: {fileID: 1428870288}
-  powerUI: {fileID: 0}
-  panel: {fileID: 594070567}
+  powerUI: {fileID: 1318904842}
+  panel: {fileID: 0}
   target: 60
 --- !u!4 &1866061883
 Transform:

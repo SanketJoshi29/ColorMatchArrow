@@ -5,13 +5,11 @@ public class WallPass : MonoBehaviour
     public GameObject head;
     public GameObject body;
     public GameObject tail;
-    //public ParticleSystem particle;
     public GameObject destroyedWall;
     public Player movement;
     public AudioSource crashSound;
     public AudioSource track;
     
-
     void OnTriggerEnter(Collider wall)
     {
         if(wall.GetComponent<Collider>().tag == "Player")
@@ -35,7 +33,6 @@ public class WallPass : MonoBehaviour
                 track.enabled = false;
                 FindObjectOfType<GameManager>().CrashMenu();
                 FindObjectOfType<HighScore>().HighScoreData();
-                //PlayerPrefs.SetInt("CoinsCollected", DisplayCoin.coinCount);
             }
             if(head.GetComponent<Renderer>().material.color == gameObject.GetComponent<Renderer>().material.color 
                 && body.GetComponent<Renderer>().material.color == gameObject.GetComponent<Renderer>().material.color
@@ -48,5 +45,6 @@ public class WallPass : MonoBehaviour
                 //particle.GetComponent<ParticleSystem>().startColor = tail.GetComponent<Renderer>().material.color;
             }
         }
-    }   
+    }
+       
 }
