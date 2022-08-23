@@ -13,6 +13,7 @@ public class SkyItemUI : MonoBehaviour
 	public GameObject[] grounds;
 	public Image popImage;
 	public Image purchaseImage;
+	public AudioSource purchaseSound;
 
 	private int currentIndex = 0;
 	private int selectedIndex = 0;
@@ -96,6 +97,7 @@ public class SkyItemUI : MonoBehaviour
   				}
 				PlayerPrefs.SetInt("SkyBoxSelected", currentIndex);
 				FindObjectOfType<PowersShop>().PurchasedPopInUI(purchaseImage);
+				purchaseSound.Play();
 				skySaveLoad.SaveData();
 			}
 			else

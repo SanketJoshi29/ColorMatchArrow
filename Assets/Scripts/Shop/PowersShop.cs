@@ -8,6 +8,7 @@ public class PowersShop : MonoBehaviour
     public TMP_Text randomColorCountText;
     public TMP_Text invisibleCountText;
     public GameObject panel;
+    public AudioSource purchaseSound;
 
     public Animator popUpAnimator;
     public Image popImage;
@@ -55,6 +56,7 @@ public class PowersShop : MonoBehaviour
             GameDataManager.AddRandomCount(1);
             PowerCount.Instance.UpdateRandomCountText();
             PurchasedPopInUI(purchaseImage);
+            purchaseSound.Play();
         }
         else
         {
@@ -73,6 +75,7 @@ public class PowersShop : MonoBehaviour
             GameDataManager.AddSwapCount(1);
             PowerCount.Instance.UpdateSwapCountText();
             PurchasedPopInUI(purchaseImage);
+            purchaseSound.Play();
         }
         else
         {
@@ -91,6 +94,7 @@ public class PowersShop : MonoBehaviour
             GameDataManager.AddInvisibleCount(1);
             PowerCount.Instance.UpdateInvisibleCountText();
             PurchasedPopInUI(purchaseImage);
+            purchaseSound.Play();
         }
         else
         {

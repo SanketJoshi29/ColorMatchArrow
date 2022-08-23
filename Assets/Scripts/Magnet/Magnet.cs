@@ -8,6 +8,7 @@ public class Magnet : MonoBehaviour
     public float rotationSpeed = 5f;
 
     public GameObject coinDetectorObj;
+    public AudioSource magnetSound;
 
     public float time;
     public bool triggered = false;
@@ -61,12 +62,14 @@ public class Magnet : MonoBehaviour
         {
             StartCoroutine(ActivateCoin());
             triggered = true;
-            Destroy(transform.GetChild(0).gameObject);
+            magnetSound.Play();
+            Destroy(transform.GetChild(0).gameObject);  
         }
         if(other.gameObject.tag == "Player Bubble")
         {
             StartCoroutine(ActivateCoin());
             triggered = true;
+            magnetSound.Play();
             Destroy(transform.GetChild(0).gameObject);
         }
     }

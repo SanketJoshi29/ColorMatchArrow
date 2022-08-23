@@ -16,6 +16,9 @@ TagManager:
   - TriggerEight
   - TriggerNine
   - Disable
+  - Break
+  - Track
+  - Crash
   layers:
   - Default
   - TransparentFX

@@ -174,7 +174,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2313649
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -351,7 +351,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &12313814
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -495,7 +495,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &15667308
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -640,7 +640,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &23750360
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -841,7 +842,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &34134035
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -985,7 +986,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &34568867
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1129,7 +1130,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &39633079
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1273,7 +1274,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &41116027
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1417,7 +1418,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &41385444
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1679,7 +1680,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &46351894
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1794,7 +1796,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &62625447
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2121,7 +2123,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &65878850
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2265,7 +2267,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &76655143
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2409,7 +2411,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &76699510
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2599,7 +2601,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &83005773
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2743,7 +2745,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &84612360
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2923,7 +2925,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &97218495
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3212,7 +3214,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &108119227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3327,7 +3330,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &110047490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3471,7 +3474,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &118322657
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3579,7 +3582,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &119997323
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3645,7 +3648,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &122709518
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3789,7 +3792,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &123153040
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3965,7 +3968,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &130773912
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4110,7 +4113,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &134571441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4225,7 +4229,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &142344218
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4292,7 +4296,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &144883908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4407,7 +4412,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &146919105
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4551,7 +4556,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &147212160
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4695,7 +4700,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &147622817
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4839,7 +4844,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &150131101
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4984,7 +4989,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &150717452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5099,7 +5105,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &152237511
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5243,7 +5249,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &154302583
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5824,7 +5830,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -140}
+  m_AnchoredPosition: {x: 1, y: -109.99997}
   m_SizeDelta: {x: 40, y: 300}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!1 &171537281
@@ -5879,7 +5885,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &171537284
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6145,7 +6152,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &175757445
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6289,7 +6296,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &177503785
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6433,7 +6440,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &179833967
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6577,7 +6584,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &180204220
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6721,7 +6728,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &181302608
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7097,7 +7104,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &188188629
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7392,7 +7399,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &192313622
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7536,7 +7543,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &196774555
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7680,7 +7687,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &197700463
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7939,7 +7946,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &203505261
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8083,7 +8090,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &207154312
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8227,7 +8234,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &210516980
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8459,7 +8466,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &215088069
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8561,6 +8568,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 223629682}
+  - component: {fileID: 223629683}
   m_Layer: 0
   m_Name: ButtonAudio
   m_TagString: Untagged
@@ -8582,6 +8590,102 @@ Transform:
   m_Father: {fileID: 1631026552}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &223629683
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223629681}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7d311a31807f93440a913d5a0c71a1be, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &228340100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8785,7 +8889,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &229850568
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8896,7 +9001,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &233169955
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8963,7 +9068,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &238615642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9078,7 +9184,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &244823183
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9223,7 +9329,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &245225227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9339,7 +9446,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &245274549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9488,7 +9596,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &251316412
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9677,7 +9785,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &262520833
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9756,7 +9865,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &273230672
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9823,7 +9932,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &284081564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9939,7 +10049,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &296956347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10054,7 +10165,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &299065591
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10199,7 +10310,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &306959751
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10298,7 +10410,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: 170}
+  m_AnchoredPosition: {x: 1, y: 200}
   m_SizeDelta: {x: 40, y: 300}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &308543406
@@ -10403,7 +10515,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &310664867
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10578,7 +10690,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &316655151
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10722,7 +10834,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &317221225
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10894,6 +11006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 100
   coinDetectorObj: {fileID: 993573911}
+  magnetSound: {fileID: 1485522070}
   time: 0
   triggered: 0
   slider: {fileID: 167988632}
@@ -10965,7 +11078,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &324274861
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11114,7 +11228,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &326751538
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11293,7 +11407,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &332412690
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11524,7 +11639,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &334935981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11685,6 +11801,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8644190536683019161, guid: f06360819e5be654097bc51c04159d32, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 408555951}
     - target: {fileID: 8878631913944215067, guid: f06360819e5be654097bc51c04159d32, type: 3}
       propertyPath: m_Name
       value: Coin (31)
@@ -11751,7 +11871,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &347952352
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11896,7 +12016,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &348682831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12011,7 +12132,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &349159320
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12155,7 +12276,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &353431051
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12299,7 +12420,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &354677556
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12530,7 +12651,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &360755448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12646,7 +12768,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &367179097
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12761,7 +12884,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &378206750
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13018,7 +13141,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &380170614
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13128,6 +13251,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 223629683}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 7d311a31807f93440a913d5a0c71a1be, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &394438613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13217,7 +13352,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &396327836
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13362,7 +13497,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &398620286
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13474,7 +13610,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &402075974
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13530,7 +13666,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c46449b8686289544b73d3b590ed43e0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7098665bbabeeb743b8167313d34dec3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -13667,7 +13803,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &415880801
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13811,7 +13947,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &421667490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13988,7 +14124,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &426027323
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14277,7 +14413,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &436643301
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14421,7 +14557,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &437796376
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14565,7 +14701,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &441246832
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14710,7 +14846,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &448921555
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14825,7 +14962,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &450051048
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14969,7 +15106,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &451165280
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15113,7 +15250,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &451730175
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15293,7 +15430,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &465085689
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15571,7 +15708,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &468250893
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15866,7 +16003,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &473421866
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16010,7 +16147,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &476114384
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16155,7 +16292,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &478652190
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16270,7 +16408,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &480107405
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16414,7 +16552,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &482842873
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16597,6 +16735,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 223629683}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 7d311a31807f93440a913d5a0c71a1be, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16819,7 +16969,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &494552490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17131,7 +17281,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &508873372
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17485,7 +17636,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &512653622
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17593,7 +17744,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &516994968
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17659,7 +17810,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &517563528
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17804,7 +17955,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &522409936
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17919,7 +18071,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &526105219
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18063,7 +18215,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &526439747
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18245,7 +18397,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &532789910
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18451,7 +18603,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &542116385
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18566,7 +18719,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &545296850
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18711,7 +18864,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &547800092
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18895,7 +19049,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &553279695
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19010,7 +19165,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &555121908
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19154,7 +19309,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &555279250
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19298,7 +19453,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &557277022
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19626,7 +19781,7 @@ GameObject:
   - component: {fileID: 563789297}
   m_Layer: 0
   m_Name: TrackAudio
-  m_TagString: Untagged
+  m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19655,9 +19810,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e3f3f56125408a844bbd798a86dbcd7d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1e44dff3ad3d20940a7bcfcd824b3bf4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -19990,7 +20145,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &565698568
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20282,7 +20437,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &568606403
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20459,7 +20614,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &572540188
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20574,7 +20730,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &572951086
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20718,7 +20874,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &578111889
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20862,7 +21018,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &578249951
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21123,7 +21279,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &586120380
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21267,7 +21423,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &590605449
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21479,6 +21635,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8644190536683019161, guid: f06360819e5be654097bc51c04159d32, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 408555951}
     - target: {fileID: 8878631913944215067, guid: f06360819e5be654097bc51c04159d32, type: 3}
       propertyPath: m_Name
       value: Coin (47)
@@ -21545,6 +21705,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8644190536683019161, guid: f06360819e5be654097bc51c04159d32, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 408555951}
     - target: {fileID: 8878631913944215067, guid: f06360819e5be654097bc51c04159d32, type: 3}
       propertyPath: m_Name
       value: Coin
@@ -21678,7 +21842,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &608576051
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21823,7 +21987,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &613208210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21938,7 +22103,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &622469362
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22226,7 +22391,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &626443732
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22370,7 +22535,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &628278318
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22515,7 +22680,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &636564349
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22674,6 +22840,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 223629683}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 7d311a31807f93440a913d5a0c71a1be, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &642093621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22764,7 +22942,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &643615226
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22879,7 +23058,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &645192161
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23139,7 +23318,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &646824723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23254,7 +23434,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &651633389
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23592,7 +23772,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &661770793
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23658,7 +23838,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &662950025
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23802,7 +23982,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &663264090
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23946,7 +24126,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &665091759
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24054,7 +24234,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &668032306
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24271,7 +24451,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &682246927
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24459,6 +24639,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 223629683}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 7d311a31807f93440a913d5a0c71a1be, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &683859109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24548,7 +24740,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &684410919
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24726,7 +24918,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &688657156
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24870,7 +25062,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &689600282
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25130,7 +25322,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &697037205
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25279,7 +25472,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &712113595
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25423,7 +25616,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &714599839
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25603,7 +25796,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &718872775
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25748,7 +25941,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &728690871
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26012,7 +26206,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &738808153
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26193,7 +26387,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &744487302
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26375,7 +26569,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &750793737
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26584,7 +26779,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &754671569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26699,7 +26895,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &757057597
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26844,7 +27040,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &761781693
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26993,7 +27190,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &764135587
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27137,7 +27334,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &764574668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27245,7 +27442,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &764962100
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27312,7 +27509,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &766671857
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27391,7 +27589,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &768392081
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27458,7 +27656,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &770118343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27678,7 +27877,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &782625477
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27822,7 +28021,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &783800374
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28101,7 +28300,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &789705239
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28245,7 +28444,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &790613769
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28390,7 +28589,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &792299044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28506,7 +28706,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &797629913
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28727,7 +28928,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &804393329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28842,7 +29044,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &805228294
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28987,7 +29189,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &807538756
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29066,7 +29269,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &817181241
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29132,7 +29335,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &818514269
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29276,7 +29479,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &830211514
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29459,7 +29662,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &838495054
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29574,7 +29778,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &845187630
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29786,6 +29990,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8644190536683019161, guid: f06360819e5be654097bc51c04159d32, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 408555951}
     - target: {fileID: 8878631913944215067, guid: f06360819e5be654097bc51c04159d32, type: 3}
       propertyPath: m_Name
       value: Coin
@@ -29848,7 +30056,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &849753100
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29964,7 +30173,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &851123361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30113,7 +30323,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &853605691
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30257,7 +30467,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &857157248
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30402,7 +30612,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &857242387
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30518,7 +30729,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &858382205
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30633,7 +30845,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &860416105
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30955,7 +31167,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &868090529
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31099,7 +31311,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &872178616
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31244,7 +31456,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &874111462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31428,7 +31641,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &877004264
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31721,7 +31934,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &883110117
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31865,7 +32078,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &885910048
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32124,7 +32337,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &892571538
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32269,7 +32482,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &907069243
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32384,7 +32598,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &909955965
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32528,7 +32742,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &909988163
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32672,7 +32886,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &911004896
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32850,7 +33064,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &915129908
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32994,6 +33208,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8644190536683019161, guid: f06360819e5be654097bc51c04159d32, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 408555951}
     - target: {fileID: 8878631913944215067, guid: f06360819e5be654097bc51c04159d32, type: 3}
       propertyPath: m_Name
       value: Coin (31)
@@ -33165,7 +33383,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &926965147
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33934,6 +34152,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 223629683}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 7d311a31807f93440a913d5a0c71a1be, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &938474844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34023,7 +34253,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &944830428
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34168,7 +34398,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &952047008
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34283,7 +34514,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &954614016
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34467,7 +34698,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &960895320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34703,7 +34935,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &966295679
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34847,7 +35079,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &971343265
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34992,7 +35224,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &975422576
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35139,7 +35372,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &983741583
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35366,7 +35599,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &986849695
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35510,7 +35743,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &987912972
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35655,7 +35888,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &988948342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36072,7 +36306,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &994122531
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36187,7 +36422,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &998745719
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36295,7 +36530,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1000038956
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36362,7 +36597,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1000403415
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36478,7 +36714,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1002626191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36659,7 +36896,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1015080753
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36803,7 +37040,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1018275894
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36947,7 +37184,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1020280664
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37091,7 +37328,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1028036488
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37236,7 +37473,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1032829639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37351,7 +37589,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1039041205
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37495,7 +37733,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1044771629
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37639,7 +37877,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1045102524
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37920,7 +38158,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1054314179
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38035,7 +38274,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1066524716
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38179,7 +38418,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1071464860
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38503,7 +38742,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1086061217
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38860,7 +39099,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1107698194
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38975,7 +39215,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1121196787
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39115,6 +39355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 100
   coinDetectorObj: {fileID: 993573911}
+  magnetSound: {fileID: 1485522070}
   time: 0
   triggered: 0
   slider: {fileID: 167988632}
@@ -39185,7 +39426,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1123387169
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39413,7 +39654,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &1138763634
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39528,7 +39770,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1140094467
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39672,7 +39914,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1144207469
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39780,7 +40022,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1161263244
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39881,7 +40123,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1165074257
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40025,7 +40267,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1166279260
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40169,7 +40411,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1167498301
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40388,7 +40630,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1175175841
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40575,6 +40817,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 223629683}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 7d311a31807f93440a913d5a0c71a1be, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1176648132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40664,7 +40918,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1181165521
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40916,7 +41170,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1206343539
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40982,7 +41236,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1208195888
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41127,7 +41381,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1209478473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41242,7 +41497,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1213597860
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41386,7 +41641,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1217017367
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41614,7 +41869,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1223908059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41729,7 +41985,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1224343464
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41959,7 +42215,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1238113382
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42111,7 +42368,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1241587761
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42255,7 +42512,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1254101913
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42363,7 +42620,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1255228474
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42646,7 +42903,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1275764935
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42790,7 +43047,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1278490797
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43157,7 +43414,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1295667073
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43302,7 +43559,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1298813404
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43378,7 +43636,7 @@ GameObject:
   - component: {fileID: 1302039125}
   m_Layer: 0
   m_Name: CrashAudio
-  m_TagString: Untagged
+  m_TagString: Crash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43544,7 +43802,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1307756538
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43721,7 +43979,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1308988341
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43837,7 +44096,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1309068447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44048,7 +44308,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1322061963
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44256,6 +44516,133 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322067317}
   m_Mesh: {fileID: -1606636399035371742, guid: 9ed8e561234bb764a8bcc2c07ceb4234, type: 3}
+--- !u!1 &1322585802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1322585803}
+  - component: {fileID: 1322585804}
+  m_Layer: 0
+  m_Name: BreakAudio
+  m_TagString: Break
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1322585803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322585802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1631026552}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1322585804
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322585802}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 649b79838ed02734b9154020c0c594e7, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1324371230
 GameObject:
   m_ObjectHideFlags: 0
@@ -44308,7 +44695,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1324371233
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44423,7 +44811,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1325800067
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44567,7 +44955,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1326648718
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44842,7 +45230,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1331410790
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44953,6 +45342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 100
   coinDetectorObj: {fileID: 993573911}
+  magnetSound: {fileID: 1485522070}
   time: 0
   triggered: 0
   slider: {fileID: 167988632}
@@ -45024,7 +45414,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &1333111708
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45140,7 +45531,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1335864227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45219,7 +45611,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1336096355
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45286,7 +45678,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &1344000562
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45401,6 +45794,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8644190536683019161, guid: f06360819e5be654097bc51c04159d32, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 408555951}
     - target: {fileID: 8878631913944215067, guid: f06360819e5be654097bc51c04159d32, type: 3}
       propertyPath: m_Name
       value: Coin (31)
@@ -45631,7 +46028,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1365916244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45746,7 +46144,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1366900569
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45890,7 +46288,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1371456607
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46113,7 +46511,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1380943142
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46212,7 +46610,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &1383807899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46327,7 +46726,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1387095294
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46471,7 +46870,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1387941897
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46731,7 +47130,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1389366376
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46981,7 +47381,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &1402275219
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47130,7 +47531,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1413985018
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47274,7 +47675,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1414226679
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47523,7 +47924,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1414831452
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47668,7 +48069,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1418912501
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47783,7 +48185,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1419376678
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47928,7 +48330,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1424620529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48043,7 +48446,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1429452409
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48187,7 +48590,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1429894243
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48326,7 +48729,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1432496971
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48392,7 +48795,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1434406376
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48536,7 +48939,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1441448381
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48680,7 +49083,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1442874555
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48825,7 +49228,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1443659638
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48940,7 +49344,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1445628725
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49084,7 +49488,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1448781115
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49312,7 +49716,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1456933356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49576,7 +49981,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1464154608
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49720,7 +50125,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1466287317
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49960,7 +50365,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1467289587
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -50148,6 +50553,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 223629683}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 7d311a31807f93440a913d5a0c71a1be, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1467900729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50221,6 +50638,133 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1485522068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1485522069}
+  - component: {fileID: 1485522070}
+  m_Layer: 0
+  m_Name: MagnetAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1485522069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485522068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1631026552}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1485522070
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485522068}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7135e7cf556fd0e48b79ac2ef1db628a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1491122266
 GameObject:
   m_ObjectHideFlags: 0
@@ -50306,7 +50850,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1494720153
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -50484,7 +51028,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1499142580
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -50672,6 +51216,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 223629683}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 7d311a31807f93440a913d5a0c71a1be, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1513280788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50761,7 +51317,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1518320465
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -50939,7 +51495,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1537746329
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51332,7 +51888,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1543823751
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51535,7 +52091,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1557836066
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51650,7 +52207,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1567036480
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51794,7 +52351,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1568304831
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51938,7 +52495,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1568330330
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52082,6 +52639,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8644190536683019161, guid: f06360819e5be654097bc51c04159d32, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 408555951}
     - target: {fileID: 8878631913944215067, guid: f06360819e5be654097bc51c04159d32, type: 3}
       propertyPath: m_Name
       value: Coin
@@ -52195,7 +52756,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1575459846
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52261,7 +52822,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1576310488
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52405,7 +52966,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1577470672
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52549,7 +53110,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1577703918
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52693,7 +53254,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1578980768
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52837,7 +53398,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1579234499
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52981,7 +53542,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1579651027
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -53126,7 +53687,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1580337465
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53205,7 +53767,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1581284748
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -53271,7 +53833,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1591358926
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -53416,7 +53978,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &1594821927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53541,7 +54104,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1613432068
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -53686,7 +54249,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1620492761
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53836,7 +54400,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1624186311
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -53981,7 +54545,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1626976371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54076,6 +54641,8 @@ Transform:
   - {fileID: 1302039126}
   - {fileID: 563789296}
   - {fileID: 408555950}
+  - {fileID: 1322585803}
+  - {fileID: 1485522069}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -54131,7 +54698,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1636556842
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54246,7 +54814,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1639093153
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54390,7 +54958,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1641309573
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54535,7 +55103,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1642137930
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54688,7 +55257,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1658386263
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54803,7 +55373,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1661215583
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54947,7 +55517,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1662558669
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55091,7 +55661,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1671994923
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55333,7 +55903,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1684563483
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55400,7 +55970,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &1685781372
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55686,7 +56257,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1700062747
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55830,7 +56401,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1701641607
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55974,7 +56545,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1703888589
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56152,7 +56723,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1706711212
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56296,7 +56867,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1717290822
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56450,7 +57021,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1723573863
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56594,7 +57165,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1723730499
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56802,7 +57373,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1728588478
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56946,7 +57517,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1728670931
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57090,7 +57661,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1732070895
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57234,7 +57805,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1737159601
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57411,7 +57982,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1757063220
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57555,7 +58126,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1757727471
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57700,7 +58271,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1757780309
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57815,7 +58387,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1761691942
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57959,7 +58531,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1761844404
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58135,7 +58707,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1766012642
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58279,7 +58851,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1767978660
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58423,7 +58995,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1768179641
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58564,7 +59136,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1775509844
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58663,7 +59235,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1779114928
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58805,7 +59377,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1780462256
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58902,7 +59474,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1787172921
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59046,7 +59618,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1789958893
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59287,7 +59859,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &1791419667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59402,7 +59975,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1791906044
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59546,6 +60119,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8644190536683019161, guid: f06360819e5be654097bc51c04159d32, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 408555951}
     - target: {fileID: 8878631913944215067, guid: f06360819e5be654097bc51c04159d32, type: 3}
       propertyPath: m_Name
       value: Coin (47)
@@ -59607,7 +60184,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1801657818
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59751,7 +60328,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1813252622
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59906,7 +60483,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1834736381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60141,7 +60719,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1845201347
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60361,7 +60939,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1858086072
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60476,7 +61055,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1860335606
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60620,7 +61199,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1863889429
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60834,12 +61413,12 @@ MonoBehaviour:
   tail: {fileID: 1841106502}
   transparent: {fileID: 2100000, guid: 55a8c01f54cce0748952549191d9b79d, type: 2}
   boxCollider: {fileID: 919132148170417544}
-  time: 10
+  time: 15
   invisibleBtn: {fileID: 394438612}
   buttonPressed: 0
   slider: {fileID: 308543404}
   timeSlider: {fileID: 308543406}
-  gameTime: 10
+  gameTime: 15
   randomColor:
   - {fileID: 2100000, guid: 1880bd8b4d0896442978c09c70185376, type: 2}
   - {fileID: 2100000, guid: d0adcd11c175bcd4f8284a32167c5d0e, type: 2}
@@ -60989,6 +61568,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8644190536683019161, guid: f06360819e5be654097bc51c04159d32, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 408555951}
     - target: {fileID: 8878631913944215067, guid: f06360819e5be654097bc51c04159d32, type: 3}
       propertyPath: m_Name
       value: Coin (47)
@@ -61060,7 +61643,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1885024264
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -61423,7 +62006,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1914278111
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -61567,7 +62150,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1914906517
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -61711,7 +62294,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1919035048
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -61856,7 +62439,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5698649542374624598, guid: 6d03cc85cdd9db947a7711154eada5ca, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1919120544
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61971,7 +62555,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1920840798
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62116,7 +62700,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1925099420
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62232,7 +62817,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1926142034
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62526,7 +63112,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1931350171
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62670,7 +63256,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1937887880
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62949,7 +63535,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &1942129608
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63064,7 +63651,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1947937719
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63208,7 +63795,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1948054925
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63353,7 +63940,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1948577714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63466,7 +64054,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1950707520
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63565,7 +64153,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1955932210
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63822,7 +64410,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1957692123
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63966,7 +64554,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1962191237
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64111,7 +64699,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &1962384786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64226,7 +64815,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1969607729
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64370,7 +64959,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1982821418
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64478,7 +65067,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1988487639
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64508,7 +65097,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1989004767
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64574,7 +65163,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1989416716
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -64718,7 +65307,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &1998563028
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65028,7 +65617,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2017263693
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65206,7 +65795,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2019618024
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65350,7 +65939,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2019691123
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65494,7 +66083,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2021291044
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -65639,7 +66228,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &2022340542
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65754,7 +66344,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2022767397
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -66032,7 +66622,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2032328920
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -66210,7 +66800,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2034749366
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -66354,7 +66944,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2036891877
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -66498,7 +67088,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2039761964
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -66643,7 +67233,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &2041601937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66764,7 +67355,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &2045781227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66954,7 +67546,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2050192498
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -67099,7 +67691,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &2051031899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67214,7 +67807,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2051811105
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -67358,7 +67951,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2054089834
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -67502,7 +68095,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2054312581
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -67646,7 +68239,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2054531049
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -67791,7 +68384,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &2059389400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67906,7 +68500,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2061430243
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -68298,7 +68892,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &2072146053
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68413,7 +69008,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2072412480
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -68557,7 +69152,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2076100734
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -68702,7 +69297,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 8462400144088071299, guid: c7980846bc07257459f36de33b0c2b40, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &2077247877
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69003,7 +69599,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &2091141931
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69118,7 +69715,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2093293579
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -69402,7 +69999,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &2116789882
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69517,6 +70115,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8644190536683019161, guid: f06360819e5be654097bc51c04159d32, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 408555951}
     - target: {fileID: 8878631913944215067, guid: f06360819e5be654097bc51c04159d32, type: 3}
       propertyPath: m_Name
       value: Coin
@@ -69584,7 +70186,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 0}
 --- !u!65 &2130897717
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69700,7 +70303,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 891618917261400198, guid: 315bc3c233febe74491cdceb4a2c386b, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &2132935686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69816,7 +70420,8 @@ MonoBehaviour:
   destroyedWall: {fileID: 5954777699780407298, guid: ac29efd5316dc3f4d8f3910c4b0e9c0a, type: 3}
   movement: {fileID: 919132148170417542}
   crashSound: {fileID: 1302039125}
-  track: {fileID: 563789297}
+  trackSound: {fileID: 0}
+  breakSound: {fileID: 1322585804}
 --- !u!65 &2134671854
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69934,7 +70539,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2142243431
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -70000,7 +70605,7 @@ MonoBehaviour:
   rotationSpeed: 100
   playerTransform: {fileID: 0}
   moveSpeed: 17
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 408555951}
 --- !u!64 &2143215102
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -74545,6 +75150,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8644190536683019161, guid: f06360819e5be654097bc51c04159d32, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 408555951}
     - target: {fileID: 8878631913944215067, guid: f06360819e5be654097bc51c04159d32, type: 3}
       propertyPath: m_Name
       value: Coin
