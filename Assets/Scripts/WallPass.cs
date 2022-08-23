@@ -8,7 +8,15 @@ public class WallPass : MonoBehaviour
     public GameObject destroyedWall;
     public Player movement;
     public AudioSource crashSound;
-    public AudioSource track;
+    public AudioSource trackSound;
+    public AudioSource breakSound;
+    
+    void Start()
+    {
+        breakSound = GameObject.FindGameObjectWithTag("Break").GetComponent<AudioSource>();
+        trackSound = GameObject.FindGameObjectWithTag("Track").GetComponent<AudioSource>();
+        crashSound = GameObject.FindGameObjectWithTag("Crash").GetComponent<AudioSource>();
+    }
     
     void OnTriggerEnter(Collider wall)
     {
@@ -23,6 +31,7 @@ public class WallPass : MonoBehaviour
                 body.GetComponent<Renderer>().material.color = tail.GetComponent<Renderer>().material.color;
                 tail.GetComponent<Renderer>().material.color = tail.GetComponent<Renderer>().material.color;
                 //particle.GetComponent<ParticleSystem>().startColor = tail.GetComponent<Renderer>().material.color;
+                breakSound.Play();
             }
             else
             {
@@ -30,7 +39,7 @@ public class WallPass : MonoBehaviour
                 movement.enabled = false;
                 Time.timeScale = 0f;
                 crashSound.enabled = true;
-                track.enabled = false;
+                trackSound.enabled = false;
                 FindObjectOfType<GameManager>().CrashMenu();
                 FindObjectOfType<HighScore>().HighScoreData();
             }
