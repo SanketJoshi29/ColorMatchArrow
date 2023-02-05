@@ -15,6 +15,8 @@ public class Tutorial : MonoBehaviour
     public GameObject invisibleBtn;
     public GameObject menuBtn;
     public GameObject restartBtn;
+    public GameObject[] arrow;
+
 
     void OnCollisionEnter(Collision collisionInfo)
     {
@@ -63,8 +65,8 @@ public class Tutorial : MonoBehaviour
             movement.moveForward = 0.1f;
             panel.SetActive(true);
             text[5].SetActive(true);
-            nextBtn.SetActive(true);
             boxCollider[5].enabled = false;
+            arrow[2].SetActive(true);
             swapBtn.SetActive(true);
         }
         if(collisionInfo.collider.tag == "TriggerSeven")
@@ -72,8 +74,8 @@ public class Tutorial : MonoBehaviour
             movement.moveForward = 0.1f;
             panel.SetActive(true);
             text[6].SetActive(true);
-            nextBtn.SetActive(true);
             boxCollider[6].enabled = false;
+            arrow[0].SetActive(true);
             randomBtn.SetActive(true);
         }
         if(collisionInfo.collider.tag == "TriggerEight")
@@ -81,8 +83,8 @@ public class Tutorial : MonoBehaviour
             movement.moveForward = 0.1f;
             panel.SetActive(true);
             text[7].SetActive(true);
-            nextBtn.SetActive(true);
             boxCollider[7].enabled = false;
+            arrow[1].SetActive(true);
             invisibleBtn.SetActive(true);
         }
         if(collisionInfo.collider.tag == "TriggerNine")
@@ -103,9 +105,6 @@ public class Tutorial : MonoBehaviour
             text[i].SetActive(false);
         }
         nextBtn.SetActive(false);
-        swapBtn.SetActive(false);
-        randomBtn.SetActive(false);
-        invisibleBtn.SetActive(false);
     }
 
     public void MenuButtonMethod()

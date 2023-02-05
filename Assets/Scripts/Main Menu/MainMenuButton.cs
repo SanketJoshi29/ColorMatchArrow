@@ -5,6 +5,12 @@ public class MainMenuButton : MonoBehaviour
 {
     private string url;
 
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+    }
+
     public void StartButton()
     {
         FindObjectOfType<SceneChanger>().FadeToScene("MainLevel");

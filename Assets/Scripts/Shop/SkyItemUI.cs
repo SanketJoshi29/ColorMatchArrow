@@ -126,7 +126,7 @@ public class SkyItemUI : MonoBehaviour
 		else
 		{
 			unlockBtn.interactable = true;
-			unlockBtnText.text = "Cost " + shopData.shopItems[currentIndex].unlockCost;
+			unlockBtnText.text = " " + shopData.shopItems[currentIndex].unlockCost;
 		}
 	}
 
@@ -138,7 +138,7 @@ public class SkyItemUI : MonoBehaviour
 			PlayerPrefs.SetInt("SkyBoxSelected", currentIndex);
 		}
 	}
-	private void ClearCache()
+	public void ClearCache()
 	{
 		skySaveLoad.ClearData();
 	}
