@@ -48,9 +48,9 @@ public class PowersShop : MonoBehaviour
 
     public void BuyRandomPowers()
     {
-        if(GameDataManager.CanSpendCoins(10))
+        if(GameDataManager.CanSpendCoins(100))
         {
-            GameDataManager.SpendCoins(10);
+            GameDataManager.SpendCoins(100);
             DisplayCoin.Instance.UpdateCoinsUIText(); 
 
             GameDataManager.AddRandomCount(1);
@@ -67,9 +67,9 @@ public class PowersShop : MonoBehaviour
     
     public void BuySwapPowers()
     {
-        if(GameDataManager.CanSpendCoins(10))
+        if(GameDataManager.CanSpendCoins(150))
         {
-            GameDataManager.SpendCoins(10);
+            GameDataManager.SpendCoins(150);
             DisplayCoin.Instance.UpdateCoinsUIText(); 
 
             GameDataManager.AddSwapCount(1);
@@ -86,9 +86,9 @@ public class PowersShop : MonoBehaviour
 
     public void BuyInvisiblePowers()
     {
-        if(GameDataManager.CanSpendCoins(10))
+        if(GameDataManager.CanSpendCoins(200))
         {
-            GameDataManager.SpendCoins(10);
+            GameDataManager.SpendCoins(200);
             DisplayCoin.Instance.UpdateCoinsUIText(); 
 
             GameDataManager.AddInvisibleCount(1);
